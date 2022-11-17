@@ -1,0 +1,15 @@
+pipeline {
+    agent any
+    stages {
+        stage('Greeting') {
+            steps {
+                echo "Hi, I am Wences!"
+            }
+        }
+        stage('Farewell') {
+            steps {
+                echo "Goodbye my friend. See you soon!"
+            }
+        }
+    }
+}
