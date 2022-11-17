@@ -1,14 +1,15 @@
 pipeline {
     agent any
     stages {
-        stage('Greeting') {
+        stage('Tests') {
             steps {
-                echo "Hi, I am Wences!"
+                echo "Executing unit tests..."
+                echo "Executing further tests..."
             }
         }
-        stage('Farewell') {
+        stage('Build') {
             steps {
-                echo "Goodbye my friend. See you soon!"
+                echo "Compiling, or directly building, the code..."
             }
         }
     }
