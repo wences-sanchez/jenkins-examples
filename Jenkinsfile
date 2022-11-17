@@ -7,5 +7,12 @@ pipeline {
       }
     }
 
+    stage('End') {
+      agent any
+      steps {
+        echo 'Good Bye my friend!'
+      }
+    }
+
   }
 }
