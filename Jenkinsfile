@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                echo "Compiling, or directly building, the code..."
+            echo "Compiling, or building directly, the code..."
             }
         }
     }
